@@ -1,0 +1,24 @@
+<html>
+<meta charset="utf8">
+<script src="../burmese2roman.js"></script>
+<script>
+  var convert=function(){
+  	textout.value=burmeseToRoman(textin.value);
+  }
+</script>
+<style>
+  textarea,button {font-size: 200%}
+  
+</style>
+<body>
+<H2>Romanized Burmese Script converter</H2>
+<button onClick="convert()">Convert</button><br/>
+<textarea rows=10 cols=74 id="textin">
+[cittakūṭa+abhimukha]  [စိတၱကူဋ+အဘိမုခ]
+pabandhāviccheda:ပဗႏၶာဝိေစၧဒ(ပု)<br>  [ပဗႏၶ+အဝိေစၧဒ]
+</textarea>
+<textarea rows=10 cols=74 id="textout"></textarea>
+
+<br/>please report bug to yapcheahshen@gmail.com
+</body>
+</html>
